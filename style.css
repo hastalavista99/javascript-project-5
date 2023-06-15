@@ -16,10 +16,11 @@ body {
 }
 
 #add-task-container {
-    width: 350px;
+    width: 400px;
     padding: 20px 10px;
     background: #fff;
     border-radius: 20px;
+    margin-bottom: 20px;
     box-shadow: 0 0 3px;
 
     display: flex;
@@ -50,4 +51,57 @@ input {
     background-color: green;
     color: #fff;
 }
+
+/*Styling for Tasks*/
+
+.task {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+
+    padding: 5px;
+    margin-bottom: 5px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.task li {
+    list-style: none;
+    flex: 4;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.task button{
+    flex: 1;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.task .check-task {
+    color: orange;
+    margin-right: 5px;
+    border: solid 2px orange;
+    font-size: 1.5rem;
+}
+.task .check-task:hover {
+    background-color: orange;
+    color: #fff;
+}
+
+.task .delete-task {
+    color: red;
+
+    border: solid 2px red;
+    font-size: 1.3rem;
+}
+.task .delete-task:hover {
+    background-color: red;
+    color: #fff;
+}
+
 
